@@ -20,4 +20,14 @@
   	<url-pattern>/loginForm</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  	<servlet-name>logicServlet</servlet-name>
+  	<servlet-class>deveric.edwith.LogicServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>logicServlet</servlet-name>
+  	<url-pattern>/logicServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
