@@ -18,7 +18,11 @@ public class TodoDao {
 	}
 	
 	public void addTodo(TodoDto todoDto){
-		
+		try {
+			smc.insert("todo.addTodo",todoDto);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 	public List<TodoDto> getTodos(){
 		List<TodoDto> todoList = null;

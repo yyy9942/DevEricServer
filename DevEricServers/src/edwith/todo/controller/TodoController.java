@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import edwith.todo.dao.TodoDao;
-import edwith.todo.vo.TodoDto;
 
 /**
  * Servlet implementation class TodoController
@@ -28,7 +27,6 @@ public class TodoController extends HttpServlet {
 		System.out.println(todos);
 		request.setAttribute("todos",todos);
 		request.getRequestDispatcher("/deveric/edwith/todo/main.jsp").forward(request, response);
-//		response.sendRedirect("/DevEricServers/deveric/edwith/todo/main.jsp");
 	}
 
 
