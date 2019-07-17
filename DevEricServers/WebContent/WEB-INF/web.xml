@@ -25,4 +25,10 @@
     <servlet-name>logicServlet</servlet-name>
     <url-pattern>/logicServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>logicServlet</servlet-name>
+  	<url-pattern>/logicServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
