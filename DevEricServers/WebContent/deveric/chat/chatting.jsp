@@ -17,7 +17,7 @@
 <script type="text/javascript">
 
 	var textarea = document.getElementById("messageWindow");
-	var webSocket = new WebSocket('ws://localhost:8080/DevEricServers/broadsocket');
+	var webSocket = new WebSocket('ws://175.203.27.159:8080/DevEricServers/broadsocket');
 	var inputMessage = document.getElementById('inputMessage');
 	
 	webSocket.onerror = function(e){
