@@ -17,6 +17,4 @@
     <servlet-name>loginForm</servlet-name>
     <url-pattern>/loginForm</url-pattern>
   </servlet-mapping>
-
-  
 </web-app>
