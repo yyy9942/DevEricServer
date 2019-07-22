@@ -40,7 +40,7 @@
  		<td><\%=application.getRealPath("") %></td>
  		<td><%=application.getRealPath("") %></td>
  		<td>\${pageContext.servletContext.getRealPath('') }</td>
- 		<td>${pageContext.servletContext.getRealPath('') }</td>
+<%--  		<td>${pageContext.servletContext.getRealPath('') }</td> --%>
  	</tr>
 </table>
 </body>
