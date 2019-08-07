@@ -119,10 +119,10 @@
 	
 
 	var textarea = document.getElementById("messageWindow");
-	var webSocket = new WebSocket('ws://ec2-13-125-250-66.ap-northeast-2.compute.amazonaws.com:8080/DevEricServers/webChatServer');
+// 	var webSocket = new WebSocket('ws://ec2-13-125-250-66.ap-northeast-2.compute.amazonaws.com:8080/DevEricServers/webChatServer');
 	
 	// 로컬에서 테스트할 때 사용하는 URL입니다.
-// 	var webSocket = new WebSocket('ws://localhost/DevEricServers/webChatServer');
+	var webSocket = new WebSocket('ws://175.203.27.33/DevEricServers/webChatServer');
 	var inputMessage = document.getElementById('inputMessage');
 	
 	webSocket.onerror = function(e){
